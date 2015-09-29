@@ -1,0 +1,13 @@
+.drag1{
+	height: 150px;
+	width: 200px;
+	background: red;
+	border: 3px solid blue;
+}
+
+#cuadro{
+	height: 550px;
+	width: 700px;
+	border: 1px solid black;
+}
+

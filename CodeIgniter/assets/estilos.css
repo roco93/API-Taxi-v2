@@ -1,0 +1,50 @@
+body{
+	background: #e0f7fa;
+}
+
+article{
+	margin-left: 14%;
+}
+
+#viajes{
+	color: #5858FA;
+	font-size: 2em;
+}
+
+#incidentes{
+	color: #E72C2C;
+	font-size: 2em;
+}
+
+/*#cont1, #cont2{
+	padding-top: 7%;
+	padding-bottom: 7%
+}*/
+
+footer{
+	bottom: 0;
+}
+
+#nav-mobile{
+	max-width: 14%;
+	top: 65px;
+	background-color: #b2ebf2;
+}
+
+.circle-content{
+	/*height:10%;*/
+}
+
+.circle-graph{
+
+}
+.l-menu{
+	font-size: 1.2em;
+}
+
+@media screen and (max-width:992px) {
+    article{
+    	margin-left: 0px;
+
+    }
+}

@@ -1,0 +1,73 @@
+body{
+	background: #fff8e1;
+}
+
+/*#card_ct{
+	height: 20px;
+}*/
+
+
+#g1, #g2{
+	background: yellow;
+	height:300px;
+}
+
+
+#cuadro{
+	width:100%;
+}
+
+.nav-wrapper{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#mapa, #s1{
+	height: 500px;
+	background-color: red;
+}
+/*
+.drag{
+	background-color: purple;
+	height: 200px;
+}
+
+.dropp{
+	background-color: yellow;
+	height: 250px;
+}*/
+
+
+
+.col{
+	text-align: center;
+}
+
+#viajes{
+	color: #5858FA;
+	font-size: 2em;
+}
+
+#incidentes{
+	color: #E72C2C;
+	font-size: 2em;
+}
+
+/*#cont1, #cont2{
+	padding-top: 7%;
+	padding-bottom: 7%
+}*/
+
+
+
+.circle-content{
+	/*height:10%;*/
+}
+
+.circle-graph{
+
+}
+.l-menu{
+	font-size: 1.2em;
+}
+

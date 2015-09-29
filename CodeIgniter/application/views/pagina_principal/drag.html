@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <!-- <link rel="stylesheet" href="css/materialize.css"> -->
+        <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="estilos.css"> -->
+        <title>Pruebas de concepto</title>
+        <!-- Site's designed for mobile -->
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/> -->
+        <!-- Obtain latest version of jquery from CDN -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery must be imported before materialize -->
+        <!-- // <script src="js/materialize.min.js"></script> -->
+        <!-- draggable -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/layout-grid.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/layout-grid.min.js"></script>
+        <!-- graficas -->
+        <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <link href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        
+        
+        <!-- <article> -->
+
+
+            <!--AQUI VA TODO EL CONTENIDO PRINCIPAL DE LA PÁGINA-->
+            <div class="contenedor">
+                <div
+                    data-arrange="lt-grid"                     
+                    class="lt-container
+                    lt-xs-h-3
+                    lt-sm-h-6
+                    lt-md-h-3
+                    lt-lg-h-4">
+                        <div
+                        draggable="true"
+                        class="lt
+                        lt-xs-x-0
+                        lt-xs-y-0
+                        lt-xs-w-1
+                        lt-xs-h-1
+                        lt-sm-x-0
+                        lt-sm-y-0
+                        lt-sm-w-2
+                        lt-sm-h-2
+                        lt-md-x-0
+                        lt-md-y-0
+                        lt-md-w-1
+                        lt-md-h-1
+                        lt-lg-x-0
+                        lt-lg-y-0
+                        lt-lg-w-2
+                        lt-lg-h-2">
+                        <div class="lt-body bg-info text-center">
+                            <!-- <h3>1</h3> -->
+                            <div class="ct-chart ct-golden-section"></div>
+                        </div>
+                    </div>
+                    <div
+                        draggable="true"
+                        class="lt
+                        lt-xs-x-0
+                        lt-xs-y-1
+                        lt-xs-w-1
+                        lt-xs-h-1
+                        lt-sm-x-0
+                        lt-sm-y-2
+                        lt-sm-w-2
+                        lt-sm-h-2
+                        lt-md-x-2
+                        lt-md-y-0
+                        lt-md-w-1
+                        lt-md-h-1
+                        lt-lg-x-2
+                        lt-lg-y-0
+                        lt-lg-w-2
+                        lt-lg-h-2">
+                        <div class="lt-body bg-info text-center">
+                            <!-- <h3>2</h3> -->
+                            <div class="ct-chartt ct-golden-section"></div>
+                        </div>
+                    </div>
+                    <div
+                        draggable="true"
+                        class="lt
+                        lt-xs-x-0
+                        lt-xs-y-2
+                        lt-xs-w-1
+                        lt-xs-h-1
+                        lt-sm-x-0
+                        lt-sm-y-4
+                        lt-sm-w-2
+                        lt-sm-h-2
+                        lt-md-x-0
+                        lt-md-y-1
+                        lt-md-w-2
+                        lt-md-h-2
+                        lt-lg-x-1
+                        lt-lg-y-2
+                        lt-lg-w-2
+                        lt-lg-h-2">
+                        <div class="lt-body bg-info text-center">
+                            <!-- <h3>3</h3> -->
+                            <div class="ct-charttt ct-golden-section"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+
+
+            
+
+        <!-- </article> -->
+
+
+
+        <script type="text/javascript">
+            new Chartist.Line('.ct-chart', {
+            labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+            series: [
+            [5, 0, 0, 0, 0],
+            [0, 2.5, 3, 2, 3],
+            [1, 2, 2.5, 3.5, 4]
+            ]
+            });
+
+            new Chartist.Line('.ct-chartt', {
+            labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+            series: [
+            [1, 5, 2, 3, 7],
+            [0, 2.5, 3, 3, 3],
+            [1, 4, 2.5, 3.5, 6]
+            ]
+            });
+
+            new Chartist.Line('.ct-charttt', {
+            labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+            series: [
+            [1, 5, 2, 3, 1],
+            [0, 2.5, 5, 2, 3],
+            [1, 4, 2.5, 3.5, 0]
+            ]
+            });
+
+        </script> 
+    </body>
+</html>

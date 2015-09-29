@@ -1,0 +1,23 @@
+- data theme va desde la "a" hasta la "f"
+- botones
+- paginas internas (enlaces internos). se reconocera solo el primer page, se utiliza un id
+- paginas externas (enlaces externos). se hace lo mismo, solo que no se usa un id
+*************************************************************************************
+		tanto en paginas internas como externas, se le puede poner data-transitions
+		slide (deslizar), Slideup (arriba a abajo), pop (realtado), flip (volteado), etc.
+		http://www.w3schools.com/jquerymobile/jquerymobile_transitions.asp
+*************************************************************************************
+- cuadros de dialogo . Esto se logra a partir de crear un page dentro de la misma pagina
+- botones en el header . Por default se colocan a lado del titulo, pero si se quieren modificar, se puede 
+		usar data-role="none"
+- botones en el footer . Normalmente en el footer se utilizan iconos preestablecidos. Estos son llamados mediante 
+		clases especiales. El controlgroup es para que se compacten los botones, y horizontal es para que se alineen 
+		de manera horizontal
+		
+- data-position . Esta puede tener como valor un fixed (fijo).... presentar con HTC Tattoo}
+- Barra de navegacion (navbar). con un nav bar se pueden colocar botones de una mejor manera en la barra de navegacion....
+		por lo general, solo se deben de poner max 4 botones, sino se vera amontonado. Tambien se puede poner en el footer.
+		Para darle estilo, se pueden agregar iconos
+- Posicion de los iconos dentro de un boton .  data-iconpos sirve para orientar el icono: top (arriba), bottom (abajo), etc.
+- Crear contenido colapsable . Crea un boton que contiene información desplegable, y tiene un titulo basandose en un h1, h2 o 			el que sea.
+- Crear Efecto Acordeon. Este efecto retoma lo del contenido colapsable, pero tiene una caracteristica en particular.... ver 			Finde.

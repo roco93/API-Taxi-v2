@@ -1,0 +1,58 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=no" charset="utf-8">
+      <title>jQuery Mobile</title>
+      <link rel="stylesheet" type="text/css" href="jqm/jquery.mobile-1.4.5.css">  
+      <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="jqm/jquery.mobile-1.4.5.js"></script>
+  </head>
+
+  <body>
+
+  <div data-role="page" id="pagina1">
+    <!--cabecera-->
+    <div data-role="header" data-theme="b" data-position="fixed">
+      <h1>jQuery Mobile</h1>
+      <a href="https://jquery.com/" data-transition="pop" >jQuery</a>
+      <a href="https://jqueryui.com/" data-transition="pop">jQuery UI</a>
+    </div>
+
+    <!-- contenido -->
+    <div data-role="content" data-theme="a">
+      <img src="img/jquerymb.png" width="300px">
+      <a href="pagina2.html" data-role="button" data-theme="b" data-transition="flip">Flip</a>
+      <a href="pagina2.html" data-role="button" data-theme="b" data-transition="fade">Fade</a>
+      <a href="pagina2.html" data-role="button" data-theme="b" data-transition="slide">Slide</a>
+      <a href="pagina2.html" data-role="button" data-theme="b" data-transition="pop">Pop</a>
+      <a href="pagina2.html" data-role="button" data-theme="b" data-transition="slideup">Slideup</a>
+
+      <a href="#pageliminar" data-role="button" data-theme="b" data-rel="dialog" data-transition="flip">Eliminar</a>
+    </div>
+
+    <!--pie de pagina -->
+    <div class="footer" data-theme="b">
+      <div data-role="controlgroup" data-type="horizontal" >
+        <a href="#agregar" class="ui-btn ui-icon-plus ui-btn-icon-left" >Agregar</a>
+        <a href="#eliminar" class="ui-btn ui-icon-delete ui-btn-icon-left">Eliminar</a>
+      </div>
+    </div>
+  </div>
+
+   <div data-role="page" id="pageliminar">
+    <!--cabecera-->
+    <div data-role="header" data-theme="b">
+      <h1>Eliminar</h1>
+    </div>
+
+    <!-- contenido -->
+    <div data-role="content" data-theme="a">
+      <p>¿Estas seguro que deseas eliminarlo?</p>
+      <a href="#pagina1" data-role="button" data-rel="back">Eliminar</a>
+      <a href="#pagina1" data-role="button" data-rel="back">Cancelar</a>
+    </div>
+
+  </div>
+
+  </body>
+</html>

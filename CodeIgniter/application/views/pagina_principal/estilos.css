@@ -1,0 +1,14 @@
+#articulo{
+	margin-left: 220px;
+}
+
+#nav-mobile{
+	max-width: 18%;
+	top: 65px;
+}
+
+@media screen and (max-width:992px) {
+    #articulo{
+    	margin-left: 0px;
+    }
+}
