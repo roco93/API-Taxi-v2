@@ -8,7 +8,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         
     //Loading url helper
     //$this->load->helper('url');
-    }
+    }       
+        
+        /*public function get() 
+        {
+            echo " esto esta en controlador y :D   ..";
+            $algo= $_GET["nombre"];
+            echo $algo;
+        }*/
 
     public function index(){
 
@@ -293,6 +300,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         //
         // Se sugiere realizar un CURL a LPLC para recuperar los nombres de los taxistas, y asi
         // que este dashboard sea mas ilustrativo.
+
     }
 
     /******************************* Estadisticas **********************************************/

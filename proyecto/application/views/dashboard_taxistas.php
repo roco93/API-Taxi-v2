@@ -4,7 +4,6 @@
 
 	   		<div class="card medium">
 	            <div id="aprobados" class="card-image waves-effect waves-block waves-light">
-	                
 	            </div>
 	            <div class="card-content amber darken-2">
 	                <p>contenido A</p>
@@ -48,7 +47,6 @@
 
 	       	<div class="card medium">
 	            <div id="reprobados" class="card-image waves-effect waves-block waves-light">
-	               
 	            </div>
 	            <div class="card-content amber darken-2">
 	                <p>contenido R</p>
